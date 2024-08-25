@@ -5,8 +5,9 @@
 console.log("hello world")
 //  variables declaration
 // variable is declared using assignment operator =
-let name = "Elie";
-console.log(name);
+//let name = "Elie";
+//console.log(name);
+
 // naming  variables
 //variables are named using camelCase
 // you can use digits, letters, dollar sign $
@@ -23,8 +24,10 @@ var number = 25;
 const pi = 3.14;
 
 // let can be re re-assigned and is accessed in inside a function.
-
+// "" or '' 
 let $name = "James";
+    name = 'Kalisa'
 console.log($name);
-
-
+let text = " God's plan never ends"
+console.log(text);
+console.log(name);
