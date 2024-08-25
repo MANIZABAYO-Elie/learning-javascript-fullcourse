@@ -24,6 +24,7 @@ const pi = 3.14;
 
 // let can be re re-assigned and is accessed in inside a function.
 
-
+let $name = "James";
+console.log($name);
 
 
