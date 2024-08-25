@@ -34,6 +34,8 @@ console.log(name);
 // string concatenation
 let last_name = "MANIZABAYO"
 let first_name = "Elie";
+let $full_name  = "my full name is"+ "" +last_name.concat("" +first_name) 
 let fullName =  last_name +""+ first_name;
 console.log("My name is ",fullName);
+console.log($full_name);
 
