@@ -15,7 +15,7 @@ console.log("hello world")
 // must start with letter or dollar sign or underscore
 // no keyword
 // can not start with number
-let fullName = "MANIZABAYO ELIE"
+//let fullName = "MANIZABAYO ELIE"
 console.log(fullName);
 // LET VS CONST VS VAR
 //var is accessed in  and updated in scope
@@ -34,4 +34,6 @@ console.log(name);
 // string concatenation
 let lastName = "MANIZABAYO"
 let firstName = "Elie";
+let fullName = lastName.concat("My name is, ",firstName);
+console.log(fullName);
 
