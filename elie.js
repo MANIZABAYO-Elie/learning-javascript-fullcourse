@@ -31,3 +31,7 @@ console.log($name);
 let text = " God's plan never ends"
 console.log(text);
 console.log(name);
+// string concatenation
+let lastName = "MANIZABAYO"
+let firstName = "Elie";
+
