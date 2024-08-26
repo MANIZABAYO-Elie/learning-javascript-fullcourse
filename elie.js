@@ -8,7 +8,6 @@ console.log("hello world")
 //let name = "Elie";
 //console.log(name);
 
-// naming  variables
 //variables are named using camelCase
 // you can use digits, letters, dollar sign $
 // or  underscore _
@@ -38,4 +37,16 @@ let $full_name  = "my full name is"+ "" +last_name.concat("" +first_name)
 let fullName =  last_name +""+ first_name;
 console.log("My name is ",fullName);
 console.log($full_name);
+
+// date  26-08-2024  learning javascript 
+// Operators 
+// assignment operator =
+//increment 
+
+
+
+let number01 = 14;
+     number01 += 6;
+     console.log(number01);
+     
 
