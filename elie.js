@@ -46,7 +46,9 @@ console.log($full_name);
 
 
 let number01 = 14;
-     number01 += 6;
+     number01 += 2;
      console.log(number01);
-     
+     let r = 4%2
+     console.log(r);
+
 
