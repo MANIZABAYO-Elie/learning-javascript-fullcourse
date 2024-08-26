@@ -42,13 +42,8 @@ console.log($full_name);
 // Operators 
 // assignment operator =
 //increment 
-
-
-
 let number01 = 14;
-     number01 += 2;
-     console.log(number01);
-     let r = 4%2
-     console.log(r);
+number01 += 2;
+console.log(number01);
 
 
