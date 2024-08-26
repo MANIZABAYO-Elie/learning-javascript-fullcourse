@@ -47,11 +47,15 @@ number01 += 2;
 console.log(number01);
 // data types
 //1.strings
+const str = " I am a man "
+console.log(typeof str);
 //2.numbers
+let $number = 23;
 // boolean
 //null
 // undefined
 //
-const str = " I am a man "
 console.log(typeof str);
+console.log(typeof $number);
+
 
