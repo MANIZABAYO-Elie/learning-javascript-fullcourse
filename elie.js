@@ -52,10 +52,19 @@ console.log(typeof str);
 //2.numbers
 let $number = 23;
 // boolean
+let value1 = true;
+let value2 = false
 //null
+
+
 // undefined
+let value4;
 //
 console.log(typeof str);
 console.log(typeof $number);
+console.log(typeof value2);
+console.log(typeof value4);
+
+// functions , arrays and objects
 
 
