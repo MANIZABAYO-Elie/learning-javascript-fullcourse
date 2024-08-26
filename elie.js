@@ -45,5 +45,13 @@ console.log($full_name);
 let number01 = 14;
 number01 += 2;
 console.log(number01);
-
+// data types
+//1.strings
+//2.numbers
+// boolean
+//null
+// undefined
+//
+const str = " I am a man "
+console.log(typeof str);
 
