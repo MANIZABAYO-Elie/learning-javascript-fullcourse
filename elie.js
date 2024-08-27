@@ -67,4 +67,9 @@ console.log(typeof value4);
 
 // functions , arrays and objects
 
+function greet(name){
+    console.log("Hello", +name);
+}
+console.log(greet("elie"));
+
 
