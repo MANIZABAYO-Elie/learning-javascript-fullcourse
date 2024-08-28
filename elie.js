@@ -85,4 +85,7 @@ const multiplyTwoNumbers = function(x,y){
     return x+y
 }
 console.log(multiplyTwoNumbers(11,12));
+// Arrow functions 
+const multiply = (a,b)=> a*b;
+console.log(multiply(10,20));
 
