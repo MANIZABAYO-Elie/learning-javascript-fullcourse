@@ -80,4 +80,9 @@ function addTwoNumbers(num1,num2){
     return num1+num2;
 }
 console.log(addTwoNumbers(20,30));
+// function expression 
+const multiplyTwoNumbers = function(x,y){
+    return x+y
+}
+console.log(multiplyTwoNumbers(11,12));
 
