@@ -88,4 +88,18 @@ console.log(multiplyTwoNumbers(11,12));
 // Arrow functions 
 const multiply = (a,b)=> a*b;
 console.log(multiply(10,20));
+// dot notation 
+const person ={
+    name : 'Elie',
+    age : 40,
+    eduction :false,
+    married: true,
+    siblings:['leonard','eric','david','samuel'],
+    greetings: function sayHello(){
+        console.log("My name is Elie")
+    }
+}
+   console.log(person.age);
+   console.log(person.eduction);
+   console.log(person.siblings[2]);
 
