@@ -109,5 +109,11 @@ const person ={
  if (value) {
     console.log('hello world');
  } 
+ const $value1 = 2<1;
+ if ($value1) {
+    console.log('hello world');
+ }else{
+    console.log('hello there');
+ }
 
 
