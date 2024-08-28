@@ -104,6 +104,8 @@ const person ={
    console.log(person.siblings[2]);
 
 // conditional statements
+// comparition operators
+// else if and !
  //>,<, >=,<=,==,=== , != ,==!
  const value = true;
  if (value) {
@@ -115,5 +117,12 @@ const person ={
  }else{
     console.log('hello there');
  }
-
+ 
+ let digit1 = 4;
+ let digit2 = 10;
+ if(digit1>digit2){
+    console.log('first number is bigger than second');
+ }else{
+    console.log('second number is bigger than first');
+ }
 
