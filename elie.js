@@ -103,3 +103,11 @@ const person ={
    console.log(person.eduction);
    console.log(person.siblings[2]);
 
+// conditional statements
+ //>,<, >=,<=,==,=== , != ,==!
+ const value = true;
+ if (value) {
+    console.log('hello world');
+ } 
+
+
