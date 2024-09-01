@@ -133,10 +133,63 @@
 
 // logic operators ||-or && and, !
 
-const name = "peter";
-const age  = 27;
-if(name==="BOB" || age===27){
-    console.log('hello there user',name)
-}else{
-    console.log('wrong values');
-}
+// const name = "peter";
+// const age  = 27;
+// if(name==="BOB" || age===27){
+//     console.log('hello there user',name)
+// }else{
+//     console.log('wrong values');
+// }
+// // switch statements
+// // dice values : 1-6;
+// const dice = 6 ;
+// switch (dice) {
+//     case 1:
+//         console.log('you got one');
+//         break;
+//     case 2:
+//         console.log('you got two');
+//         break;
+//     case 3:
+//         console.log('you got three');
+//         break;
+//     case 4:
+//         console.log('you got four');
+//         break;
+//     case 5:
+//         console.log('you got five');
+//         break;
+//     case 6:
+//         console.log('you got six');
+//         break;
+// }
+
+//loops
+// repeatedely run a block of code while condition is true
+
+// const amount =  10;
+//while(amount>0){
+//console.log('I have a ' +amount+ ' Dollars');
+// amount--;
+//}
+
+// let  money = 0
+// do{
+//     console.log('you have ' +money+ ' in your account');
+//     money++;
+// }
+// while(money<10);
+
+// let i;
+// for(i=0;i<10;i++){
+//     console.log('the number is: ' +i);
+// }
+//string properties and methods
+let text = "PETER";
+let result = text.length;
+console.log(result);
+console.log(text.toLowerCase());
+console.log(text.toUpperCase());
+console.log(text.charAt(0));
+console.log(text.charAt(text.length-1));
+
