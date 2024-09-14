@@ -192,4 +192,6 @@ console.log(text.toLowerCase());
 console.log(text.toUpperCase());
 console.log(text.charAt(0));
 console.log(text.charAt(text.length-1));
+let split_text = text.split('')
+console.log(split_text);
 
