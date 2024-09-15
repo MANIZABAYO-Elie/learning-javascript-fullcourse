@@ -194,4 +194,6 @@ console.log(text.charAt(0));
 console.log(text.charAt(text.length-1));
 let split_text = text.split('')
 console.log(split_text);
+ reversedText = split_text.reverse()
+ console.log(reversedText);
 
