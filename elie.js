@@ -185,15 +185,21 @@
 //     console.log('the number is: ' +i);
 // }
 //string properties and methods
-let text = "PETER";
-let result = text.length;
-console.log(result);
-console.log(text.toLowerCase());
-console.log(text.toUpperCase());
-console.log(text.charAt(0));
-console.log(text.charAt(text.length-1));
-let split_text = text.split('')
-console.log(split_text);
- reversedText = split_text.reverse()
- console.log(reversedText);
+// let text = "PETER";
+// let result = text.length;
+// console.log(result);
+// console.log(text.toLowerCase());
+// console.log(text.toUpperCase());
+// console.log(text.charAt(0));
+// console.log(text.charAt(text.length-1));
+// let split_text = text.split('')
+// console.log(split_text);
+//  reversedText = split_text.reverse()
+//  console.log(reversedText);
+   
+          //arrays properties and methods
+let names = ["bob","king","James","Brandon","Jennifer"];
+console.log(names.length);
+console.log(names[0]);
+
 
