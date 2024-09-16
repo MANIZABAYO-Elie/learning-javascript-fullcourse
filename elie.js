@@ -199,7 +199,11 @@
    
           //arrays properties and methods
 let names = ["bob","king","James","Brandon","Jennifer"];
+// length 
 console.log(names.length);
 console.log(names[0]);
-
+// concat 
+let lastNames =["Kalisa","Irakoze","Ishimwe"]
+let allNames = names.concat(lastNames);
+console.log(allNames);
 
