@@ -207,4 +207,12 @@ let lastNames =["Kalisa","Irakoze","Ishimwe"]
 let allNames = names.concat(lastNames);
 console.log(allNames);
 console.log(allNames.reverse());
+// unshift
+allNames.unshift("Susan");
+console.log(allNames);
+// shift
+console.log(allNames.shift());
+//push 
+allNames.push("clementine");
+console.log(allNames);
 
