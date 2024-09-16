@@ -216,7 +216,6 @@ console.log(allNames.shift());
 allNames.push("clementine");
 console.log(allNames);
 //pop
-allNames.pop()
-console.log(allNames);
+console.log(allNames.pop());
 
 
