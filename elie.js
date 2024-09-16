@@ -206,4 +206,5 @@ console.log(names[0]);
 let lastNames =["Kalisa","Irakoze","Ishimwe"]
 let allNames = names.concat(lastNames);
 console.log(allNames);
+console.log(allNames.reverse());
 
