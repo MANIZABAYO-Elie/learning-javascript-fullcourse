@@ -168,7 +168,7 @@
 // repeatedely run a block of code while condition is true
 
 // const amount =  10;
-//while(amount>0){
+//while(amounti]>0){
 //console.log('I have a ' +amount+ ' Dollars');
 // amount--;
 //}
@@ -198,25 +198,33 @@
 //  console.log(reversedText);
    
           //arrays properties and methods
-let names = ["bob","king","James","Brandon","Jennifer"];
+// let names = ["bob","king","James","Brandon","Jennifer"];
 // length 
-console.log(names.length);
-console.log(names[0]);
-// concat 
-let lastNames =["Kalisa","Irakoze","Ishimwe"]
-let allNames = names.concat(lastNames);
-console.log(allNames);
-console.log(allNames.reverse());
-// unshift
-allNames.unshift("Susan");
-console.log(allNames);
-// shift
-console.log(allNames.shift());
-//push 
-allNames.push("clementine");
-console.log(allNames);
-//pop
-allNames.pop()
-//console.log(allNames.pop());
-
+// console.log(names.length);
+// console.log(names[0]);
+// // concat 
+// let lastNames =["Kalisa","Irakoze","Ishimwe"]
+// let allNames = names.concat(lastNames);
+// console.log(allNames);
+// console.log(allNames.reverse());
+// // unshift
+// allNames.unshift("Susan");
+// console.log(allNames);
+// // shift
+// console.log(allNames.shift());
+// //push 
+// allNames.push("clementine");
+// console.log(allNames);
+// //pop
+// allNames.pop()
+// //console.log(allNames.pop());
+const gas = [40,70,100,200,120];
+function calculateTotal(arr){
+    let total =0;
+    for(let i =0; i<arr.length; i++){
+        total  +=arr[i];
+    }
+    return total
+}
+console.log(calculateTotal(gas));
 

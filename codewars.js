@@ -3,6 +3,6 @@
         //    const reversedArray = arrayWords.reverse(' ');
         //    return reversedArray.join(' ');
         const reversedwords = str.split(' ').reverse(' ').join(' ');
-        console.log(reversedwords);
+        return reversedwords;
 }
 console.log(reverseWords("Hello World"));
